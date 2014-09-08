@@ -1,0 +1,14 @@
+def check(value,x,y)
+  p x.find(3)
+end
+
+
+
+arr = [[0,2,1],[2,3,5],[6,8,7]]
+
+arr.each_with_index do |x , xi|
+  arr.each_with_index do |w , yi|
+    if arr[xi][yi].eq ? 3
+      check:(arr[xi][yi],x,y)
+  end
+end
